@@ -13,5 +13,5 @@ npm run dev
 项目打包成 App
 
 ```bash
-npm run dist
+npm run build
 ```
