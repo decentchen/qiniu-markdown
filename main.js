@@ -18,6 +18,7 @@ const createManager = () => {
   const bucketName = settingsStore.get("bucketName");
   return new QiniuManager(accessKey, secretKey, bucketName);
 };
+console.log("test");
 app.on("ready", () => {
   const mainWindowConfig = {
     width: 1500,
